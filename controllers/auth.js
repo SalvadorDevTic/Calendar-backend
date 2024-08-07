@@ -94,6 +94,8 @@ const updateToken = async (req, res = response) => {
 
     res.json({
       ok: true,
+      uid,
+      name,
       token,
     });
   } catch (error) {
